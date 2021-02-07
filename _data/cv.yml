@@ -1,0 +1,130 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Sai Venkatesh Ramesh
+    - name: Date of Birth
+      value: 3rd July 1996
+    - name: Nationality
+      value: Indian
+    - name: Languages
+      value: Tamil, English, Hindi
+
+- title: Research Areas
+  type: list
+  contents:
+    - Deep learning and applications of AI and ML in autonomous navigation, personalized learning, genome editing.
+
+- title: Work Experience
+  type: table
+  contents:
+    - title: 'Software Development Engineer at Samsung Electronics Pvt Ltd, Chennai.'
+      year: Jun, 18 - Pres
+      description:
+        - Designed scalable pipelines with Go to ingest and transform raw data into structured Elasticsearch documents. Created visualization buckets and observability dashboards using Python for ad-hoc analysis and monitoring.
+        - Developed a JSON DSL based blueprint library using Node.js for orchestrating messaging worker workflows.
+        - Mobile Point Of Sale - Built Node.js - PostgreSQL microservices following SAGA design pattern for handling integrations with omnichannel retailers. Designed state machines for administrating and customizing the interactions.
+        - Endless Aisle - Implemented priority stock allocation for 720 Samsung Smart Shops affected due to COVID-19 in India.
+    - title: 'Research Intern at Product Labs, IIIT-Hyderabad.'
+      year: Oct, 20 - Pres
+      description:
+        - Evaluated CenterNet, adapted Deep Layer Aggregation and Deformable Convolutions for multi-tank detection in infrared videos. • Designed a Euclidean based Centroid Tracker for tracking and associating predicted tanks.
+        - Enhanced Adaptive Template Matching (ATM) with local search space optimization and multi-scale support.
+        - Alternated between Detection and ATM to balance accuracy and speed to reach the required target FPS of 60.
+    - title: 'Research Intern at Glosys Technology Solutions Pvt. Ltd.'
+      year: Aug, 17 - Jun, 18
+      description:
+        - Implemented CNN-BiLSTM with visual attention using Inject and Merge, Encode-Decoder models for automatically describing an image with BLEU-1, CIDEr scores of 67.4, 91.4.
+        - Proposed ‘GlosysNetIC’ - Sequential and Parallel Transformer with support for stacking multiple CNN feature maps.
+        - Experimented on ensemble of encoders, increased BLEU-1, CIDEr scores to 72.5, 94.1, and co-authored a conference paper. 
+    - title: 'Software Development Intern at Hischip Software Technologies Pvt Ltd'
+      year: Mar, 17 - May, 17
+      description:
+        - Worked on building a website from scratch using Facebook log-in to provide a seamless experience.
+        - The site allowed new users and existing users to take a survey for better understanding of the customer base.
+        - Based on their preferences, the website would display necessary content.    
+    - title: 'Software Development Intern at Nesh Technologies, Inc'
+      year: Apr, 16 - Jun, 16
+      description:
+        - Developed a prototype using Keyhole Markup Language to construct a geo-fence drawed on 48 border critical points collected from F3 Police Station, Chennai, TN.
+        - Created a weighted graph with the critical points using police headquarters and user location as nodes.
+        - Leveraged Dijkstra's algorithm for priority routing among the nodes in the graph with extra priority for nodes with in the fence.
+        - Designed a Fluid-UI for simplistic use of the application.
+
+
+- title: Education
+  type: table
+  contents:
+    - title: Sri Venkateswara College of Engineering – B.E. in Computer Science.
+      year: Aug, 14- May, 18
+      description: 
+       - <u>Thesis Title</u> - <b>Autonomnous Navigation using Deep Learning</b>. - Guided by Dr. Jayabhaduri Radhakrishnan.
+       - <b>Heart Disease Prediction Using Machine Learning</b> - Guided by Prof. Janakasudha Gopalan.
+
+- title: Honors and Awards
+  type: table
+  contents:
+    - year: Dec, 20
+      items: 
+        - <b>Most Innovative Project</b> in Samsung GMC Hackathon.
+        - <b>Samsung Chain - Group Buy</b>. Provided the capability for customers to initiate and deal as a group and unlock pre-defined milestones/offers.
+    - year: Jun, 20
+      items: 
+        - <b>Most Inspiring Employee</b>, Samsung Performance Awards.    
+    - year: Jun, 19
+      items: 
+        - <b>Creative Intelligence</b>, Samsung Performance Awards.
+    - year: Mar, 18
+      items: 
+        - <b>Runners-Up</b> in the Ministry of Empowerment of Persons with Disabilities, Smart India Hackathon, Govt. of India.
+        - Built a Platform Independent Mobile Application for tracking available parking spaces for persons with disabilities.
+
+- title: Certifications
+  type: table
+  contents:
+    - year: May, 20
+      items: 
+        - Deep Learning - Udacity.
+    - year: Dec, 17
+      items: 
+        - Machine Learning - A Case Study - Coursera - Univ. Of Washington.
+    - year: Dec, 17
+      items: 
+        - Machine Learning - Classification - Coursera - Univ. Of Washington.
+    - year: Dec, 17
+      items: 
+        - Machine Learning - Regression - Coursera - Univ. Of Washington.
+    - year: Dec, 17
+      items: 
+        - Machine Learning - Coursera - Stanford Univ.
+
+- title: Services
+  type: nested_list
+  contents:
+    - title: 'University'
+      items:
+        - '2017: Formum Website for Intra-Departmental Research Collaboration and Communication.'
+        - '2017: <b>Executive Member for Association of Computer Engineers</b> - Organized the Interrupt. 2017 National Technical Symposium.'
+    - title: 'Service'
+      items:
+        - '2015: <b>Care Club Volunteer</b> : Planted trees in 5 different locations.'
+        - '2015: <b>Photography Club</b> : Captured thought-provoking pictures for raising awareness in maintaining a clean environment and avoiding plastic.'
+
+- title: Software Development Skills
+  type: list
+  contents:
+    - '<u>GitHub:</u> <a href="https://github.com/Sai-Venky/" target="_blank">https://github.com/Sai-Venky/</a>.'
+    - '<u>Machine Learning Frameworks:</u> <a href="https://pytorch.org/" target="_blank">PyTorch</a>, Keras, Tensorflow, Scikit-Learn'
+    - '<u>Programming Languages:</u> Python, C, C++, Go, JavaScript (Node.js), Dart, SQL.'
+    - '<u>Programming Environments (IDEs):</u> Visual Studio.'
+    - '<u>Database Systems:</u> PostgreSQL, Cockroach, Elasticsearch, Redis, MySQL.'
+    - '<u>Operating Systems:</u> Mac OS, Linux (Ubuntu), Windows.'
+    - '<u>Command Line:</u> Bash, Git, PowerShell.'
+    - '<u>Agile Tools:</u> Jira, Confluence.'
+    - '<u>Deployment Tools:</u> Docker, AWS.'
+
+- title: Other Interests
+  type: list
+  contents:
+    - '<u>Sports:</u> Cricket, Table Tennis, Swimming, Badminton, Soccer.'
+    - '<u>Hobbies:</u> Volunteering, Politics, Photography, Travelling, Reading.'
