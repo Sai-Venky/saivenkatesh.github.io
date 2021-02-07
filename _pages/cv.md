@@ -7,8 +7,8 @@ nav: true
 
 <!-- Place PDF download link at the top right. -->
 <div class="row" style="margin-top: -3.5em;">
-	<a class="ml-auto mr-2" href="/assets/pdf/SAI-VENKATESH.pdf" target="_blank">
-	  <img height="60px" src="/assets/img/pdf_icon.svg">
+	<a class="ml-auto mr-2" href="/assets/pdf/SAI-VENKATESH.pdf | relative_url" target="_blank">
+	  <img height="60px" src="/assets/img/pdf_icon.svg  | relative_url ">
 	</a>
 </div>
 
