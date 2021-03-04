@@ -5,4 +5,4 @@ title: AICompetition
 inline: true
 ---
 
-Idea on "Virtual Learning" using Spatial AI has qualified for the <a href="https://opencv.org/opencv-ai-competition-2021/">OpenCV AI Comp. 2021</a> Finals.
+Idea on "Virtual Learning" has qualified for the <a href="https://opencv.org/opencv-ai-competition-2021/">OpenCV AI Comp. 2021</a> finals. #OneStepCloser
