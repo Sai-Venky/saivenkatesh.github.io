@@ -13,15 +13,10 @@
 - title: Work Experience
   type: table
   contents:
-    - title: ' Individual Contributor: Software Development at Motorq Labs LLP, Chennai.'
+    - title: 'Individual Contributor: Software Development at Motorq Labs LLP, Chennai.'
       year: Oct, 21 - Pres
       description:
-        - Order Monitoring - Designed scalable pipelines that aggregated order lifecycle data from heterogeneous databases and transformed them into structured documents. Created visualization buckets and dashboards for ad-hoc analysis, tracking and monitoring.
-        - Mobile Point Of Sale - Built state machines following SAGA design pattern for handling integrations with omni-channel retailers
-        - Endless Aisle - Designed a priority fulfillment system to route created orders to Samsung Warehouses affected due to Covid 19.
-        - Rules Engine - Created a JSON DSL based blueprint tool for orchestrating distributed messaging workflows.
-        - Postal Code Limit Restriction - Designed a highly available throttling system to regulate the inflow of orders within a time period.
-        - Part of the Internal Committee where responsibilities included organizing workshops, writing white papers and mentoring interns. 
+        - Building a connected-cars data and analytics platform with data streams ingested from OEM-embedded systems and aftermarket telematics
         
     - title: 'Software Development Engineer at Samsung Electronics Pvt Ltd, Chennai.'
       year: Jun, 18 - Oct, 21
@@ -74,8 +69,9 @@
 - title: Patents
   type: table
   contents:
-    - title: A System and Method for Depth-based Recognition and Tracking of a Pre-defined Physical Structure - Indian Patent Application No. 202141034670
-      year: Aug, 12
+    - year: Aug, 21
+      items: 
+        - <b>A System and Method for Depth-based Recognition and Tracking of a Pre-defined Physical Structure </b> Indian Patent Application No. 202141034670
 
 - title: Honors and Awards
   type: table
