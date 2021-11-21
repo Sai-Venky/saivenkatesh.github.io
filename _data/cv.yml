@@ -10,39 +10,52 @@
     - name: Languages
       value: Tamil, English, Hindi
 
-- title: Research Areas
-  type: list
-  contents:
-    - Deep learning and applications of AI and ML in autonomous navigation, personalized learning, genome editing.
-
 - title: Work Experience
   type: table
   contents:
+    - title: ' Individual Contributor: Software Development at Motorq Labs LLP, Chennai.'
+      year: Oct, 21 - Pres
+      description:
+        - Order Monitoring - Designed scalable pipelines that aggregated order lifecycle data from heterogeneous databases and transformed them into structured documents. Created visualization buckets and dashboards for ad-hoc analysis, tracking and monitoring.
+        - Mobile Point Of Sale - Built state machines following SAGA design pattern for handling integrations with omni-channel retailers
+        - Endless Aisle - Designed a priority fulfillment system to route created orders to Samsung Warehouses affected due to Covid 19.
+        - Rules Engine - Created a JSON DSL based blueprint tool for orchestrating distributed messaging workflows.
+        - Postal Code Limit Restriction - Designed a highly available throttling system to regulate the inflow of orders within a time period.
+        - Part of the Internal Committee where responsibilities included organizing workshops, writing white papers and mentoring interns. 
+        
     - title: 'Software Development Engineer at Samsung Electronics Pvt Ltd, Chennai.'
-      year: Jun, 18 - Pres
+      year: Jun, 18 - Oct, 21
       description:
-        - Designed scalable pipelines with Go to ingest and transform raw data into structured Elasticsearch documents. Created visualization buckets and observability dashboards using Python for ad-hoc analysis and monitoring.
-        - Developed a JSON DSL based blueprint library using Node.js for orchestrating messaging worker workflows.
-        - Mobile Point Of Sale - Built Node.js - PostgreSQL microservices following SAGA design pattern for handling integrations with omnichannel retailers. Designed state machines for administrating and customizing the interactions.
-        - Endless Aisle - Implemented priority stock allocation for 720 Samsung Smart Shops affected due to COVID-19 in India.
+        - Order Monitoring - Designed scalable pipelines that aggregated order lifecycle data from heterogeneous databases and transformed them into structured documents. Created visualization buckets and dashboards for ad-hoc analysis, tracking and monitoring.
+        - Mobile Point Of Sale - Built state machines following SAGA design pattern for handling integrations with omni-channel retailers
+        - Endless Aisle - Designed a priority fulfillment system to route created orders to Samsung Warehouses affected due to Covid 19.
+        - Rules Engine - Created a JSON DSL based blueprint tool for orchestrating distributed messaging workflows.
+        - Postal Code Limit Restriction - Designed a highly available throttling system to regulate the inflow of orders within a time period.
+        - Part of the Internal Committee where responsibilities included organizing workshops, writing white papers and mentoring interns. 
+
     - title: 'Research Intern at Product Labs, IIIT-Hyderabad.'
-      year: Oct, 20 - Pres
+      year: Oct, 20 - Aug, 21
       description:
-        - Evaluated CenterNet, adapted Deep Layer Aggregation and Deformable Convolutions for multi-tank detection in infrared videos. • Designed a Euclidean based Centroid Tracker for tracking and associating predicted tanks.
-        - Enhanced Adaptive Template Matching (ATM) with local search space optimization and multi-scale support.
-        - Alternated between Detection and ATM to balance accuracy and speed to reach the required target FPS of 60.
+        - Evaluated CenterNet, adapted Deep Layer Aggregation and Deformable Convolutions for multi-tank detection in infrared videos.
+        - Extracted Histogram of Gradients descriptors of tanks with templates and combined with Wasserstein distance to filter false targets.
+        - Designed a Euclidean based Centroid Tracker for tracking and associating detected tanks.
+        - Built a multi-threaded pipeline that alternated between Detection and Adaptive Template Matching with a throughput of 74 FPS.
+        - Filed the end product for a provisional patent.
+
     - title: 'Research Intern at Glosys Technology Solutions Pvt. Ltd.'
-      year: Aug, 17 - Jun, 18
+      year: Aug, 17 - May, 18
       description:
-        - Implemented CNN-BiLSTM with visual attention using Inject and Merge, Encode-Decoder models for automatically describing an image with BLEU-1, CIDEr scores of 67.4, 91.4.
-        - Proposed ‘GlosysNetIC’ - Sequential and Parallel Transformer with support for stacking multiple CNN feature maps.
-        - Experimented on ensemble of encoders, increased BLEU-1, CIDEr scores to 72.5, 94.1, and co-authored a conference paper. 
+        - Built an Encode-Decoder architecture with CNN-LSTM to generate captions for Indian Road Safety signs to assist vehicle drivers.
+        - Guided the research on ‘GlosysNetIC’ architecture for stacking multiple CNN Encoders with Transformer Decoder.
+        - Presented the work at the Mining Intelligence and Knowledge Exploration (MIKE 2019) conference.
+
     - title: 'Software Development Intern at Hischip Software Technologies Pvt Ltd'
       year: Mar, 17 - May, 17
       description:
         - Worked on building a website from scratch using Facebook log-in to provide a seamless experience.
         - The site allowed new users and existing users to take a survey for better understanding of the customer base.
-        - Based on their preferences, the website would display necessary content.    
+        - Based on their preferences, the website would display necessary content.  
+
     - title: 'Software Development Intern at Nesh Technologies, Inc'
       year: Apr, 16 - Jun, 16
       description:
@@ -57,17 +70,29 @@
   contents:
     - title: Sri Venkateswara College of Engineering – B.E. in Computer Science.
       year: Aug, 14- May, 18
-      description: 
-       - <u>Thesis Title</u> - <b>Autonomnous Navigation using Deep Learning</b>. - Guided by Dr. Jayabhaduri Radhakrishnan.
-       - <b>Heart Disease Prediction Using Machine Learning</b> - Guided by Prof. Janakasudha Gopalan.
+
+- title: Patents
+  type: table
+  contents:
+    - title: A System and Method for Depth-based Recognition and Tracking of a Pre-defined Physical Structure - Indian Patent Application No. 202141034670
+      year: Aug, 12
 
 - title: Honors and Awards
   type: table
   contents:
+    - year: Sep, 21
+      items: 
+        - <b>Special Mention Prize </b> - Hackathon of Pie
+        - Designed a virtual teaching framework, where teachers can write, share, collaborate and present remotely. The product looks to bridge the gap between physical education and virtual education.
+    - year: Aug, 21
+      items: 
+        - <b>Finalist</b> in OpenCV Spatial AI Competition
+        - Combined finger movements with OAK-D device’s depth information to enable real-time air writing in a virtual 2D grid space using a blend of 2D hand keypoint detection and optical flow to enhance the digital teaching experience.
+        - Proposed and implemented “Expandable Board” that creates an infinite writing space and “Lazy Move” to virtually navigate in it.
     - year: Dec, 20
       items: 
         - <b>Most Innovative Project</b> in Samsung GMC Hackathon.
-        - <b>Samsung Chain - Group Buy</b>. Provided the capability for customers to initiate and deal as a group and unlock pre-defined milestones/offers.
+        - <b>Samsung Chain - Group Buy</b>. Designed a microservice that enabled B2C customers to collaborate and avail tiered pricing offers designated for business users.
     - year: Jun, 20
       items: 
         - <b>Most Inspiring Employee</b>, Samsung Performance Awards.    
@@ -77,7 +102,7 @@
     - year: Mar, 18
       items: 
         - <b>Runners-Up</b> in the Ministry of Empowerment of Persons with Disabilities, Smart India Hackathon, Govt. of India.
-        - Built a Platform Independent Mobile Application for tracking available parking spaces for persons with disabilities.
+        - Built a Smart Parking Application to help people with disabilities find parking spaces allocated for them. Parking Lot availabilty could be tracked using IR Sensors connected to Raspberry Pi or by processing parking camera footages using CNN
 
 - title: Certifications
   type: table
